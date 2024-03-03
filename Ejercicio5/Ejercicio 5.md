@@ -52,9 +52,20 @@ Deberás entregar los siguientes capturas de pantalla y los comandos empleados p
 
 1. Creación inicial del contenedor - documenta los pasos hasta el borrado del mismo
 
-   
+     
 
 2. Bloque de código con el Dockerfile
+
+   ```bash
+   FROM php:7.4-apache
+   RUN mkdir /var/www/html/ejerciciodocker
+   
+   COPY index.html /var/www/html/ejerciciodocker
+   COPY index.css /var/www/html/ejerciciodocker
+   COPY mes.php /var/www/html/ejerciciodocker
+   
+   EXPOSE 8000
+   ```
 
    ![Imagen de WhatsApp 2024-03-03 a las 19.39.13_7aaf34e1](./Ejercicio%205.assets/Imagen%20de%20WhatsApp%202024-03-03%20a%20las%2019.39.13_7aaf34e1.jpg)
 
@@ -73,7 +84,7 @@ Deberás entregar los siguientes capturas de pantalla y los comandos empleados p
    ![Imagen de WhatsApp 2024-03-03 a las 20.04.07_d269f2f1](./Ejercicio%205.assets/Imagen%20de%20WhatsApp%202024-03-03%20a%20las%2020.04.07_d269f2f1.jpg)
 
 5. Captura de pantalla y documento donde se vea la bajada de la imagen - por parte de otra
-  persona del grupo - y la creación de un contenedor.
+     persona del grupo - y la creación de un contenedor.
 
   ![image-20240303202503204](./Ejercicio%205.assets/image-20240303202503204.png)
 
