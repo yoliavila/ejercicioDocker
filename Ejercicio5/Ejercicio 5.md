@@ -30,7 +30,7 @@ $ echo "<? php echo 'Estamos en el mes de ' . date('F'); ?>" > mes.php
 
 ![image-20240303130243269](./Ejercicio%205.assets/image-20240303130243269.png)
 
-Borrar el contenedor
+Borrar el contenedor:
 
 ```bash
 $ docker stop web
