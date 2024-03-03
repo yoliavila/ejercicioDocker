@@ -1,1 +1,0 @@
-<? php echo 'Estamos en el mes de ' . date('F'); ?>
