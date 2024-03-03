@@ -4,11 +4,11 @@
 
 -Fichero docker-compose.yaml:
 
-![image-20240302093930117](./kuvjgkh.assets/image-20240302093930117.png)
+![image-20240302093930117](./ejercicio4.assets/image-20240302093930117.png)
 
 -Captura de pantalla y documento donde se vea la aplicación funcionando. Se valorará conseguir el efecto Greenrain:
 
-![image-20240302094223682](./kuvjgkh.assets/image-20240302094223682.png)
+![image-20240302094223682](./ejercicio4.assets/image-20240302094223682.png)
 
 -Explicar brevemente cómo funciona esta aplicación:
 
@@ -16,10 +16,10 @@
 
 Para ver este efecto ejecutamos el siguiente comando:
 
-![image-20240302103642161](./kuvjgkh.assets/image-20240302103642161.png)
+![image-20240302103642161](./ejercicio4.assets/image-20240302103642161.png)
 
 Para referirme al servicio he indicado el ID que me ha generado el sistema para este.
 
 Y conseguimos el efecto:
 
-![image-20240302103550539](./kuvjgkh.assets/image-20240302103550539.png)
+![image-20240302103550539](./ejercicio4.assets/image-20240302103550539.png)
